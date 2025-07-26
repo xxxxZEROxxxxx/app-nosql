@@ -1,6 +1,6 @@
 import { BadRequestException, ConflictException, Inject, Injectable, NotFoundException } from '@nestjs/common';
-import { CreateUserDto } from '../../dto/create-user.dto';
-import { UpdateUserDto } from '../../dto/update-user.dto';
+import { CreateUserDto } from '../../dto/Admins/create-user.dto';
+import { UpdateUserDto } from '../../dto/Admins/update-user.dto';
 import { UsersModule } from '../../users.module';
 import { isValidObjectId, Model } from 'mongoose';
 import { User } from '../../interfaces/interface';
